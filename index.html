@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RiskiArinza | WebSite</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+        <!-- Logo di pojok kiri atas -->
+            <div class="logo">
+                <img src="https://i.postimg.cc/h4QxPpj8/profile.png" alt="Logo" class="logo-img"> <!-- Ganti 'logo.png' dengan path logo Anda -->
+            </div>
+            <h1>RiskiArinza</h1>
+            <nav>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul id="nav-list">
+                    <li><a href="tentang.html">Tentang</a></li>
+                    <li><a href="proyek.html">Proyek</a></li>
+                    <li><a href="layanan.html">Layanan</a></li>
+                    <li><a href="#kontak.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!--Slider Image-->
+<div class="slider-container">
+    <div class="slider">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROfEDh95KYK6rSZBdJNMA2GUEFTSN51IM7kYrhjV9AI9craHhReBwSVZh5&s=10" alt="Image 1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkzqstgoj874jq0nvH356S6vX_P3F11Yna_ckNAACSwm82NSFUKxg2uOk&s=10" alt="Image 2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFTYdj3gMA6jMYqG8tXZmaXmtFYxDhUT8yTngbeF_5M_ZpYLDSvA2EUcNn&s=10" alt="Image 3">
+        <img src="https://i.postimg.cc/65cm82dm/20250512-011644.jpg" alt="Image 4">
+    </div>
+    
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    
+    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+</div>
+
+    <section id="tentang">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>Halo! Saya RiskiArinza adalah seorang pengembang web dengan pengalaman dalam membuat aplikasi dan website yang responsif pemula.</p>
+        </div>
+    </section>
+
+    <section id="proyek">
+        <div class="container">
+            <h2>Proyek Saya</h2>
+            <div class="proyek-list">
+                <div class="proyek-item">
+                    <img src="https://i.postimg.cc/h4QxPpj8/profile.png" alt="Logo" class="logo-list"> <!-- Ganti 'logo.png' dengan path logo Anda -->
+                    <h3>Proyek 1</h3>
+                    <p>Deskripsi proyek 1...</p>
+                </div>
+                <div class="proyek-item">
+                    <img src="https://i.postimg.cc/h4QxPpj8/profile.png" alt="Logo" class="logo-list"> <!-- Ganti 'logo.png' dengan path logo Anda -->
+                    <h3>Proyek 2</h3>
+                    <p>Deskripsi proyek 2...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="layanan">
+        <div class="container">
+            <h2>Layanan Saya</h2>
+            <div class="layanan-list">
+                <div class="layanan-item">
+                    <img src="https://i.postimg.cc/h4QxPpj8/profile.png" alt="Logo" class="logo-list"> <!-- Ganti 'logo.png' dengan path logo Anda -->
+                    <h3>Pembuatan Website</h3>
+                    <p>Saya membuat website yang responsif dan cepat untuk berbagai kebutuhan.</p>
+                </div>
+                <div class="layanan-item">
+                    <img src="https://i.postimg.cc/h4QxPpj8/profile.png" alt="Logo" class="logo-list"> <!-- Ganti 'logo.png' dengan path logo Anda -->
+                    <h3>SEO & Pemasaran Digital</h3>
+                    <p>Saya membantu meningkatkan visibilitas website Anda di mesin pencari melalui SEO dan strategi pemasaran digital.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak">
+        <div class="container">
+            <h2>Kontak</h2>
+            <p>Jika kamu tertarik bekerja sama atau ingin bertanya lebih lanjut, hubungi saya di email <a href="mailto:email@example.com">email@example.com</a>.</p>
+            <p> Kunjungi juga Channel YouTube saya <a href="https://www.youtube.com/@RiskiArinza">RiskiArinza</a>.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 RiskiArinza. Semua hak cipta dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
