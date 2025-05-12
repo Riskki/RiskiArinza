@@ -287,12 +287,12 @@ a:link {
 
 a:visited {
   text-decoration: none;
-  color: #2ecc71;
+  color: #0056b3;
 }
 
 a:hover {
   text-decoration: none;
-  color: #0056b3;
+  color: #2ecc71;
 }
 
 a:active {
