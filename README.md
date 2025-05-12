@@ -1,2 +1,1 @@
-Youtube: RiskiArinza
-cc2025
+Welcome gays, don't forget subscribe my Youtube: RiskiArinza
